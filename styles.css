@@ -1,9 +1,7 @@
 .itemContainer {
     display:flex;
     flex-direction:row;
-    flex-grow:3;
     font-family:sans-serif;
-    color: pink;
     width:100%;
 }
 
@@ -12,6 +10,7 @@
 }
 ul {
     display:flex;
+    flex-grow:1;
     flex-direction: column;
 }
 #app {
